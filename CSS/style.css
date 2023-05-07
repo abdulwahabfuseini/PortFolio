@@ -1653,7 +1653,7 @@ body.dark .fa-github{
     }
     .home{
         flex-direction: column;
-        padding: 14px 0;
+        padding: 16px 0;
     }
     .home .main-left{
         flex-basis: 50%;
@@ -1733,6 +1733,11 @@ body.dark .fa-github{
         font-size: 3.4vw;
         padding: 5px;
     }
+    .about{
+        background: var(--body-color);
+        width: 100%;
+        padding: 11vw 2vw;
+    }
     .Btn{
         margin-top: 12vw;
         gap: 7vw;
@@ -1806,7 +1811,7 @@ body.dark .fa-github{
        display: none;
     }     
     .service h4{
-        font-size: 4vw;
+        font-size: 4.3vw;
     }
     .service .service-content{
         grid-template-columns: repeat(1, 1fr);
@@ -1834,7 +1839,7 @@ body.dark .fa-github{
         padding: 1.8vw;
         text-transform: uppercase;
         color: var(--text-color);
-        font-size: 4.2vw;
+        font-size: 4.3vw;
     }
     .portfolio .project::-webkit-scrollbar{
         width: 0.8rem;
