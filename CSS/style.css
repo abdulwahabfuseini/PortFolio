@@ -1165,7 +1165,7 @@ body.dark .fa-github{
 .disappear{
     opacity: 0;
     filter: blur(5px);
-    transition: all 1s ease-in;
+    transition: all 0.5s ease-in;
     transform:  translate(-100px);
 }
 .appear{
@@ -1239,35 +1239,6 @@ body.dark .fa-github{
     .Btn h2{
         font-size: 18px;
     }
-    /* .skills a{
-        font-size: 18px;
-    }
-    .about .background .skill{
-        line-height: 4vw;
-    }
-    .about .background .skill h5{
-        font-size: 1.5vw; 
-    }
-    .about .background .skill p{
-        font-size: 1.5vw;
-    }
-    .percentage:nth-child(3) h5{
-        margin-left: 4.5vw;
-    }
-    .percen:nth-child(1) h5{
-        margin-left: 14vw;
-    }
-    .percen:nth-child(2) h5{
-        margin-left: 17vw;
-    }
-    .box{
-        width: 40vw;
-        height: 1.8vw;
-    } */
-    /* .box::before{
-        height: 1vw;
-        top: 0.4vw;
-    } */
     .education thead th{
         text-transform: capitalize;
         font-size: 2.3vw;
@@ -1835,7 +1806,7 @@ body.dark .fa-github{
        display: none;
     }     
     .service h4{
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .service .service-content{
         grid-template-columns: repeat(1, 1fr);
@@ -1860,14 +1831,20 @@ body.dark .fa-github{
     
     .portfolio h3{
         text-align: center;
-        padding: 1.2vw;
+        padding: 1.8vw;
         text-transform: uppercase;
         color: var(--text-color);
-        font-size: 3.2vw;
+        font-size: 4.2vw;
     }
     .portfolio .project::-webkit-scrollbar{
-        width: 3.4vw;
+        width: 0.8rem;
     }
+    .portfolio .project::-webkit-scrollbar-thumb{
+        border: 4px solid transparent;
+    }
+    .portfolio .project::-webkit-scrollbar-thumb:hover{
+        border: 4px solid transparent;
+    }  
     .portfolio nav .portbar{
         display: flex;
         justify-content: center;
