@@ -409,7 +409,6 @@ nav .nav-links .bar .fa-solid{
     padding-top: 0.5vw 0;
     text-align: justify;
     font-size: 1.4vw;
-    font-weight: 100;
     color: var(--text-color);
 }
 .content .profile h2{
@@ -1180,7 +1179,7 @@ body.dark .fa-github{
 @media screen and (max-width: 768px){
     nav.navbar{
         height: 7vw;
-        padding: 1vw 4px;
+        padding: 1vw 0.4vw;
     }
     nav .nav-links .pro img{
         width: 5.2vw;
@@ -1283,7 +1282,7 @@ body.dark .fa-github{
     .education tbody td{
         line-height: 3vw;
         font-size: 1.8vw;
-        padding: 0.8vw 4vw;
+        padding: 0.8vw 2vw;
     }
     .education .sch{
         display: none;
@@ -1908,11 +1907,7 @@ body.dark .fa-github{
         font-size: 4vw;
     }
     .contact-content .contact-left::before{
-        left: -3vw;
-        height: 1vw;
-        width: 90vw;
-        top: 80vw;
-        position: absolute;
+       display: none;
     } 
     .contact-left .left-content .message{
         padding: 2vw 1.5vw;
